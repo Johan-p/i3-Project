@@ -72,6 +72,11 @@ nano .xinitrc
 on reboot your background will now be taken from the .fehbg file.
 
 # optional selenium drivers
-*geckodirvers for selenium
-*https://github.com/mozilla/geckodriver/releases
-*export PATH=$PATH:/root/Downloads/geckodriver-v0.23.0-linux64
+geckodirvers for selenium
+```
+
+https://github.com/mozilla/geckodriver/releases
+export PATH=$PATH:/root/Downloads/geckodriver-v0.23.0-linux64
+
+```
+
