@@ -5,11 +5,14 @@ shared i3 repo
 ``apt-get update -y && apt-get upgrade -y && apt-get dist-upgrade -y
 ``
 # Run following on commandline
-``apt-get install i3``
-``apt-get install i3lock``
-``apt-get install rxvt-unicode``
-``apt install nm-applet``
-``apt install git``
+```
+apt-get install i3
+apt-get install i3lock
+apt-get install rxvt-unicode
+apt install nm-applet
+apt install git
+
+```
 
 
 # Audio applet
