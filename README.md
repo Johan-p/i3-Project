@@ -2,8 +2,8 @@
 shared i3 repo
 
 # update everything
-apt-get update -y && apt-get upgrade -y && apt-get dist-upgrade -y
-
+``apt-get update -y && apt-get upgrade -y && apt-get dist-upgrade -y
+``
 # Run following on commandline
 ``apt-get install i3
 apt-get install i3lock
