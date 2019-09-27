@@ -48,14 +48,19 @@ mv .Xdefault /userfolder/.Xdefault
 
 
 # background
-``apt-get install feh``
+```
 
+apt-get install feh
 
-# open an image with feh
-``feh imagename.jpg``
+```
+open an image with feh
+```
 
+feh imagename.jpg
 
-# set it as your background
+```
+
+set it as your background
 ```
 
 cat .fehbg
@@ -63,19 +68,20 @@ nano .xinitrc
 
 ```
 
-
-# add this in the file:
-``~/.fehbg``
-
-
-# close and save.
-on reboot your background will now be taken from the .fehbg file.
-
-# optional selenium drivers
-geckodirvers for selenium
+add this in the file:
 ```
 
+~/.fehbg
+
+```
+close and save.
+on reboot your background will now be taken from the .fehbg file.
+
+# optional for selenium users
+geckodirvers for selenium
 https://github.com/mozilla/geckodriver/releases
+```
+
 export PATH=$PATH:/root/Downloads/geckodriver-v0.23.0-linux64
 
 ```
