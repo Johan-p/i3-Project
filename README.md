@@ -15,7 +15,9 @@ apt-get install i3
 apt-get install i3lock
 apt-get install rxvt-unicode
 apt install nm-applet
+apt install i3blocks
 apt install git
+
 
 ```
 
