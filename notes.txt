@@ -24,8 +24,12 @@
                                               bg color          fg color            text color        
 URxvt*keysym.Control-Shift-F10: command:
 \033]11;#2c2c2c\007
+
 \033]10;#dcdcdc\007
+
 \033]12;#dcdcdc\007
+
+Change color of 0 t/m 15:
 \033]4;0;#3f3f3f\007
 \033]4;1;#705050\007
 \033]4;2;#60b48a\007
@@ -42,5 +46,6 @@ URxvt*keysym.Control-Shift-F10: command:
 \033]4;13;#ec93d3\007
 \033]4;14;#93e0e3\007
 \033]4;15;#ffffff\007
+
 
 URxvt*keysym.Control-Shift-F10: command:\033]11;#2c2c2c\007\033]10;#dcdcdc\007\033]12;#dcdcdc\007\033]4;0;#3f3f3f\007\033]4;1;#705050\007\033]4;2;#60b48a\007\033]4;3;#dfaf8f\007\033]4;4;#9ab8d7\007\033]4;5;#dc8cc3\007\033]4;6;#8cd0d3\007\033]4;7;#dcdcdc\007\033]4;8;#709080\007\033]4;9;#dca3a3\007\033]4;10;#72d5a3\007\033]4;11;#f0dfaf\007\033]4;12;#94bff3\007\033]4;13;#ec93d3\007\033]4;14;#93e0e3\007\033]4;15;#ffffff\007
