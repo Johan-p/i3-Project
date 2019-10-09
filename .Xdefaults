@@ -14,47 +14,74 @@ URxvt.perl-ext-common:          default,matcher
 URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
 URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
 URxvt.clipboard.autocopy:       true
-URxvt.cursorBlink:		true
+URxvt.cursorBlink:		          true
 
 URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 
-! Colors
-*background:   #000000
-*foreground:   #3ae178
-*cursorColor:  #3ae178
+! Accent Colors
 
-!zwart en bolt zwart
-*color0:      #33303b
-*color8:      #4f4b58
+#define S_yellow        #b58900
+#define S_orange        #cb4b16
+#define S_red           #dc322f
+#define S_magenta       #d33682
+#define S_violet        #6c71c4
+#define S_blue          #268bd2
+#define S_cyan          #2aa198
+#define S_green         #3ae178
 
-!rood
-*color1:      #ff5c57
-*color9:      #ff5c57
+! Dark
 
-!groen
-*color2:      #5af78e
-*color10:     #5af78e
+#define S_base03        #002b36
+#define S_base02        #073642
+#define S_base01        #586e75
+#define S_base00        #657b83
+#define S_base0         #839496
+#define S_base1         #93a1a1
+#define S_base2         #eee8d5
+#define S_base3         #fdf6e3
 
-!geel
-*color3:      #f3f99d
-*color11:     #f3f99d
+! Light
 
-!blauw
-*color4:      #57c7ff
-*color12:     #57c7ff
+! #define S_base03        #fdf6e3
+! #define S_base02        #eee8d5
+! #define S_base01        #93a1a1
+! #define S_base00        #839496
+! #define S_base0         #657b83
+! #define S_base1         #586e75
+! #define S_base2         #073642
+! #define S_base3         #002b36
 
-!paars
-*color5:      #ff6ac1
-*color13:     #ff6ac1
 
-!cyaan
-*color6:      #9aedfe
-*color14:     #9aedfe
+! To only apply colors to your terminal, for example, prefix
+! the color assignment statement with its name. Example:
+!
+! URxvt*background:            S_base03
 
-!wit
-*color7:      #27980d
-*color15:     #27980d
+*background:              S_base03
+*foreground:              S_base0
+*fading:                  40
+*fadeColor:               S_base03
+*cursorColor:             S_green
+*pointerColorBackground:  S_base01
+*pointerColorForeground:  S_base1
+
+*color0:                  S_base02
+*color1:                  S_red
+*color2:                  S_green
+*color3:                  S_yellow
+*color4:                  S_blue
+*color5:                  S_magenta
+*color6:                  S_cyan
+*color7:                  S_base2
+*color9:                  S_orange
+*color8:                  S_base03
+*color10:                 S_base01
+*color11:                 S_base00
+*color12:                 S_base0
+*color13:                 S_violet
+*color14:                 S_base1
+*color15:                 S_base3
 
 
 URxvt*keysym.Control-Shift-F10: command:\033]11;#2c2c2c\007\033]10;#dcdcdc\007\033]12;#dcdcdc\007\033]4;0;#3f3f3f\007\033]4;1;#705050\007\033]4;2;#60b48a\007\033]4;3;#dfaf8f\007\033]4;4;#9ab8d7\007\033]4;5;#dc8cc3\007\033]4;6;#8cd0d3\007\033]4;7;#dcdcdc\007\033]4;8;#709080\007\033]4;9;#dca3a3\007\033]4;10;#72d5a3\007\033]4;11;#f0dfaf\007\033]4;12;#94bff3\007\033]4;13;#ec93d3\007\033]4;14;#93e0e3\007\033]4;15;#ffffff\007
