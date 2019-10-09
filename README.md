@@ -84,6 +84,21 @@ add this in the file:
 close and save.
 on reboot your background will now be taken from the .fehbg file.
 
+
+# Terminal colors:
+based on https://github.com/altercation/solarized
+![solarized palette](https://github.com/altercation/solarized/raw/master/img/solarized-palette.png)
+
+![solarized vim](https://github.com/altercation/solarized/raw/master/img/solarized-vim.png)
+
+```
+
+Control-Shift-F3 for light terminal theme
+Control-Shift-F4 for dark terminal theme
+
+```
+
+
 # optional for selenium users
 geckodirvers for selenium
 https://github.com/mozilla/geckodriver/releases
