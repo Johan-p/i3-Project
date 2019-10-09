@@ -21,7 +21,6 @@ apt install git
 
 ```
 
-
 # Audio applet
 ```
 
@@ -39,11 +38,20 @@ apt install nm-applet
 
 nm-tray & in config file.
 
+
 # htop en iftop
+```
+
 sudo apt-get install iftop
 
+```
+
 # newsboat
+```
+
 snap install newsboat
+
+```
 
 # git clone files to your distro and move the config files to the correct place.
 ```
