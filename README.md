@@ -87,6 +87,7 @@ on reboot your background will now be taken from the .fehbg file.
 
 # Terminal colors:
 based on https://github.com/altercation/solarized
+
 ![solarized palette](https://github.com/altercation/solarized/raw/master/img/solarized-palette.png)
 
 ![solarized vim](https://github.com/altercation/solarized/raw/master/img/solarized-vim.png)
