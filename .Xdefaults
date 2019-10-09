@@ -53,21 +53,20 @@ URxvt.matcher.button: 1
 *pointerColorForeground:  #93a1a1
 
 
+! Light
+!Background tones
+!*color8:                 #fdf6e3
+!*color0:                 #eee8d5
 
-! Light background content background
+!Content tones
+!*color10:                #93a1a1
+!*color11:                #839496
+!*color12:                #657b83
+!*color14:                #586e75
 
-! #define S_base03        #fdf6e3
-! #define S_base02        #eee8d5
-! #define S_base01        #93a1a1
-! #define S_base00        #839496
-! #define S_base0         #657b83
-! #define S_base1         #586e75
-! #define S_base2         #073642
-! #define S_base3         #002b36
-
-
-
-
+!background tones
+!*color7:                 #073642
+!*color15:                #002b36
 
 
 URxvt*keysym.Control-Shift-F10: command:\033]11;#2c2c2c\007\033]10;#dcdcdc\007\033]12;#dcdcdc\007\033]4;0;#3f3f3f\007\033]4;1;#705050\007\033]4;2;#60b48a\007\033]4;3;#dfaf8f\007\033]4;4;#9ab8d7\007\033]4;5;#dc8cc3\007\033]4;6;#8cd0d3\007\033]4;7;#dcdcdc\007\033]4;8;#709080\007\033]4;9;#dca3a3\007\033]4;10;#72d5a3\007\033]4;11;#f0dfaf\007\033]4;12;#94bff3\007\033]4;13;#ec93d3\007\033]4;14;#93e0e3\007\033]4;15;#ffffff\007
